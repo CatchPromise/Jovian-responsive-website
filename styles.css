@@ -31,6 +31,10 @@ h1 {
 }
 
 
+a {
+    text-decoration-line: none;
+}
+
 #about {
     display: flex;
     max-width: 800px;
@@ -53,5 +57,46 @@ h1 {
 }
 
 .location {
-    color: gray
+    color: gray;
+    margin-bottom: 16px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.apply {
+    float: right;
+}
+
+#footer {
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 40px;
+}
+
+.copyright {
+    color: grey;
 }
