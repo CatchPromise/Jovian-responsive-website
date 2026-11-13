@@ -4,13 +4,36 @@ body {
     font-family: sans-serif;
 }
 
-#navbar {
+.navbar {
     padding: 8px;
     margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
+#logo {
+    height: 35px;
+    width: 35px;
+}
 
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 15px 20px;
+    margin-left: auto;
+    padding-right: 8px;
+}
 
+#brand-txt{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: -30px;
+    margin-left: 40px;
+}
 #banner {
     object-fit: cover;
 }
@@ -99,4 +122,10 @@ h3 {
 
 .copyright {
     color: grey;
+}
+
+@media screen and (min-width: 370px) and (max-width: 600px) {
+    body {
+        background-color: bisque;
+    }
 }
