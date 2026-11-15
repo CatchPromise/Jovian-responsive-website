@@ -25,7 +25,7 @@ body {
     padding-right: 8px;
 }
 
-#brand-txt{
+.brand-txt {
     font-size: 24px;
     font-weight: bold;
     display: flex;
@@ -34,6 +34,7 @@ body {
     margin-top: -30px;
     margin-left: 40px;
 }
+
 #banner {
     object-fit: cover;
 }
@@ -104,28 +105,122 @@ h3 {
     float: right;
 }
 
-#footer {
-    background-color: ghostwhite;
+.footer {
+    background-color: #cbd5e1;
     padding: 8px;
     margin-top: 32px;
     text-align: center;
 }
 
-#footer-links {
+.footer-links {
     list-style: none;
 }
 
-#footer-links li {
+.footer-links li {
     display: inline;
-    margin: 0 40px;
+    margin: 0 20px;
 }
+
+.footer-links a {
+    color: #0f2d59;
+    font-family: "Inter", sans-serif;
+}
+
+
 
 .copyright {
-    color: grey;
+    color: #0f2d59;
+    text-align: center;
 }
 
-@media screen and (min-width: 370px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
-        background-color: bisque;
+        background-color: #ffffff;
+
     }
+
+    .navbar {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .brand-txt {
+        font-size: 20px;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .navbar a {
+        color: #0f2d59;
+    }
+
+    h1 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #0f2d59;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #0f2d59;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #1e293b;
+        font-weight: 600;
+    }
+
+    p {
+        font-family: 'Inter', sans-serif;
+        color: #334155;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .camp {
+        color: #172554;
+    }
+
+    .boot-camp-Lists ol {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .boot-camp-Lists li {
+        list-style: disc;
+        color: #b45309;
+    }
+
+    .boot-camp-Lists a {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        color: #b45309;
+        gap: 20px;
+    }
+
+    .links a {
+        color: #0f2d59;
+    }
+
+    
+    
+
+
+
+    
+
+
+
 }

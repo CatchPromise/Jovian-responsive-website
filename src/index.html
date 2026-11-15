@@ -9,6 +9,16 @@
     <title>
         Jovian - Job Opportunities
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="j favicon.jpeg">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -17,7 +27,7 @@
     <nav class="navbar">
         <div class="brand">
             <img id="logo" alt="Jovian Logo" src="j nav.jpeg" />
-            <span id="brand-txt">Jovian</span>
+            <span class="brand-txt">Jovian</span>
         </div>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -41,21 +51,23 @@
                 that it has a more-or-less normal distribution of letters, as opposed to using 'Content
                 here, content here', making it look like readable.
             </p>
-            <p>
+
+            <p class="camp">
                 We also offer 2 industry-focused bootcamps:
-            <ol>
+            </p>
+
+            <ol class="boot-camp-Lists">
                 <li>
-                    <a href="https://harvard.edu">
-                        Jovian Full Start Developer Bootcamp
+                    <a href="https://harvard.edu" class="camp" target="_blank">
+                        Jovian Full Stack Developer Bootcamp
                     </a>
                 </li>
                 <li>
-                    <a href="https://wa.me" target="07033186185">
+                    <a href="https://wa.me" class="camp" target="07033186185">
                         Jovian Data Science Bootcamp
                     </a>
                 </li>
             </ol>
-            </p>
         </div>
         <div id="team">
             <img id="team-image" src="team.jpg" alt="Team">
@@ -69,17 +81,17 @@
 
     <h2>Job Opportunities</h2>
     <div id="jobs">
-        <div>
+        <div class="links">
             <a href="maito:iampromisechukwuma@gmail.com?subject=Frontend" class="apply" target="-blank">Apply</a>
             <h3 class="job-role">Frontend Developer</h3>
             <div class="location">New York, USA</div>
         </div>
-        <div>
+        <div class="links">
             <a href="maito:iampromisechukwuma@gmail.com?subject=Backend" class="apply" target="-blank">Apply</a>
             <h3 class="job-role">Backend Developer</h3>
             <div class="location">Remote</div>
         </div>
-        <div>
+        <div class="links">
             <a href="maito:iampromisechukwuma@gmail.com?subject=Data" class="apply" target="-blank">Apply</a>
             <h3 class="job-role">Data Science</h3>
             <div class="location">Los Angeles, USA</div>
@@ -88,20 +100,20 @@
     </div>
 
 
-    <div id="footer">
-        <ul id="footer-links">
+    <div class="footer">
+        <ul class="footer-links">
             <li>
                 <a href="https://Jovian.com/Learn" target="_blank">
-                    courses
+                    Courses
                 </a>
             </li>
             <li>
                 <a href="https://Jovian.com/Learn" target="_blank">
-                    programs
+                    Programs
                 </a>
             </li>
             <li>
-                <a href="https://youtube.com/@jovian">
+                <a id="youtube-link" href="https://youtube.com/@jovian" target="_blank">
                     Youtube
                 </a>
             </li>
